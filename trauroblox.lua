@@ -20,7 +20,7 @@ local fask = task
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "Trẩu Roblox | Blox Fruit",
+    Title = "Donki Roblox | Blox Fruit",
     SubTitle = "",
     TabWidth = 160,
     Size = UDim2.fromOffset(600, 325),
@@ -58,7 +58,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton.Size = UDim2.new(0, 50, 0, 55)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=99577583753742"
+ImageButton.Image = "http://www.roblox.com/asset/?id=110168550029423"
 
 UICorner.CornerRadius = UDim.new(0, 10) 
 UICorner.Parent = ImageButton
@@ -1309,10 +1309,10 @@ end
 
 ---------------SettingTab
 Tabs.infor:AddButton({
-        Title = "Discord | Trẩu Roblox",
+        Title = "Discord | Donki Roblox",
         Description = "Copy Link",
         Callback = function()
-        setclipboard("https://discord.gg/K6jXNUEByE")
+        setclipboard("https://discord.gg/T5KCd4Hs9C")
         end
     })
 ---------------TabStatus
@@ -1399,9 +1399,9 @@ local DaoNaoCac = Tabs.Home:AddParagraph({
 local function updateMirageStatus()
     local mirageIsland = game.Workspace._WorldOrigin.Locations:FindFirstChild('Mirage Island')
     if mirageIsland then
-        DaoNaoCac:SetDesc('Status: Đảo đã xuất hiện')
+        DaoNaoCac:SetDesc('Status: Có đảo kìa ông cháu')
     else
-        DaoNaoCac:SetDesc('Status: Hiện không có')
+        DaoNaoCac:SetDesc('Status: Không có đảo')
     end
 end
 
@@ -4794,8 +4794,8 @@ end)
 
 game.StarterGui:SetCore("SendNotification", {
       Icon = "";
-      Title = "Trẩu Roblox", 
-      Text = "Anh yêu các con vợ";
+      Title = "Donki Roblox", 
+      Text = "Tặng các em 5 củ nek 💸";
 })                                                                                              
 wait(.3)
 local placeId = game.PlaceId
@@ -4826,7 +4826,7 @@ local Data =
 {
     ["embeds"] = {
         {
-            ["title"] = "Thông Tin | Account",
+            ["title"] = "Donki Roblox | Account",
             ["url"] = "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId,
             ["description"] = "```"..game.Players.LocalPlayer.DisplayName.." ```",
             ["color"] = tonumber("0xf7c74b"),
@@ -4859,7 +4859,7 @@ local Data =
                 },
                 {
                     ["name"] = "Ty For Use:",
-                    ["value"] = "**__FREE FIRE__**",
+                    ["value"] = "**__Donki Roblox__**",
                     ["inline"] = true          
                 }
             }              
