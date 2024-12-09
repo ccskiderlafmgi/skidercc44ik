@@ -66,7 +66,7 @@ local Data =
             ["url"] = "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId,
             ["description"] = "```"..game.Players.LocalPlayer.DisplayName.." ```",
             ["color"] = tonumber("0xf7c74b"),
-            ["image"] = {["url"] = "https://i.imgur.com/EZ6g1jF.gif"}
+            ["image"] = {["url"] = "https://i.imgur.com/EZ6g1jF.gif"},
             ["thumbnail"] = {["url"] = "https://i.imgur.com/RR7Q9t3.gif"},
             ["fields"] = {
                 {
