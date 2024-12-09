@@ -66,7 +66,8 @@ local Data =
             ["url"] = "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId,
             ["description"] = "```"..game.Players.LocalPlayer.DisplayName.." ```",
             ["color"] = tonumber("0xf7c74b"),
-            ["thumbnail"] = {["url"] = "https://i.imgur.com/zQWWjhD.gif"},
+            ["image"] = {["url"] = "https://i.imgur.com/EZ6g1jF.gif"}
+            ["thumbnail"] = {["url"] = "https://i.imgur.com/RR7Q9t3.gif"},
             ["fields"] = {
                 {
                     ["name"] = "Execute:",
@@ -910,7 +911,7 @@ L2.BorderSizePixel = 0
 L2.Position = UDim2.new(0.1208, 0, 0.0953, 0)
 L2.Size = UDim2.new(0, 50, 0, 50)
 L2.Font = Enum.Font.LuckiestGuy
-L2.Text = "Duc Design"
+L2.Text = "V4 Premium"
 L2.TextColor3 = Color3.fromRGB(255, 255, 255)
 L2.TextSize = 9.000
 L2.Draggable = true
@@ -933,7 +934,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.359138072, 0, -0.025062656, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 50)
 TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "Jack-97 vừa donate cho bạn 5 củ"
+TextLabel.Text = "Tôi vừa donate cho bạn 5 củ"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 19.000
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.01, Color3.fromRGB(23, 48, 235)), ColorSequenceKeypoint.new(0.16, Color3.fromRGB(55, 23, 235)), ColorSequenceKeypoint.new(0.35, Color3.fromRGB(219, 13, 30)), ColorSequenceKeypoint.new(0.68, Color3.fromRGB(8, 152, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(114, 187, 255))}
