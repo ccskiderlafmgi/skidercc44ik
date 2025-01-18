@@ -155,7 +155,7 @@ require(game.ReplicatedStorage:WaitForChild("Notification")).new(
         ):Display()
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
-            " <Color=Red>!!! Dit me chung may chọn team đi script mới chạy đc !!!<Color=/> "
+            " <Color=Red>!!! Ủng hộ qua stk : 0765520260 - MB BANK !!!<Color=/> "
         ):Display()
 -- Hàm làm tròn
 local function round(n)
