@@ -1,4 +1,18 @@
 getgenv().Team = "Pirate"
+-- Tự động chọn team khi khởi động
+local function AutoSelectTeam()
+    local team = getgenv().Team -- Biến lưu team cần chọn, mặc định là Pirate
+    
+    if team == "Pirate" then
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
+    elseif team == "Marine" then
+        game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Marines")
+    end
+end
+
+-- Gọi hàm AutoSelectTeam để tự động chọn team khi khởi động game
+AutoSelectTeam()
+
 local ScreenGui = Instance.new("ScreenGui")
 local LinkLabel = Instance.new("TextLabel")
 local PingLabel = Instance.new("TextLabel")
