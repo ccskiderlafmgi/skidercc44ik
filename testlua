@@ -82,7 +82,7 @@ Tab:AddToggle({
 -- Thêm mục Fix FPS để tối ưu đồ họa game Blox Fruits
 Tab:AddToggle({
     Name = "Fix FPS : Đang hoạt động 🟢",
-    Default = false, -- Mặc định là tắt
+    Default = true, -- Mặc định là tắt
     Callback = function(state)
         fixFPS = state
         if fixFPS then
