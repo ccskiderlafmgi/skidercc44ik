@@ -2677,10 +2677,10 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Discord",
+    Title = "Box Zalo",
     Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://discord.gg/25ms");
+        setclipboard("https://zalo.me/g/kmhete440");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
