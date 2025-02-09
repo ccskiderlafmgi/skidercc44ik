@@ -29,7 +29,7 @@ screenGui.Parent = game.CoreGui
 local toggleButton = Instance.new("ImageButton")
 toggleButton.Size = UDim2.new(0, 50, 0, 50) -- Kích thước nhỏ, hình vuông
 toggleButton.Position = UDim2.new(1, -60, 0, 10) -- Vị trí gần góc phải trên
-toggleButton.Image = "rbxassetid://7229442422" -- Hình ảnh của nút
+toggleButton.Image = "rbxassetid://116967146603351" -- Hình ảnh của nút
 toggleButton.BackgroundTransparency = 1 -- Không có nền
 toggleButton.Parent = screenGui
 
