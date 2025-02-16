@@ -25,7 +25,7 @@ local v2 = {
 			Topic = Color3.fromRGB(72, 161, 227),
 			Title = Color3.fromRGB(255, 255, 255),
 			LoaderBackground = Color3.fromRGB(28, 28, 28),
-			LoaderSplash = Color3.fromRGB(135, 206, 250)
+			LoaderSplash = Color3.fromRGB(255, 160, 160)
 		}
 	},
 	Keyframes = shared.LoaderKeyFrames or {
@@ -369,7 +369,7 @@ v28.Window = function(v148, v149)
 	v184.BackgroundTransparency = 4.1;
 	v184.Position = UDim2.new(0.400426834, 0, 0.075000003, 0);
 	v184.Size = UDim2.new(0, 270, 0, 325);
-	v184.Image = "http://www.roblox.com/asset/?id="   .. tostring(121842404613757) ;
+	v184.Image = "http://www.roblox.com/asset/?id="   .. tostring() ;
 	local v192 = Instance.new("UICorner");
 	v192.Name = "MCNR";
 	v192.Parent = v161;
