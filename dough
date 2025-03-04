@@ -1,5 +1,5 @@
 --loadstring(game:HttpGet("https://raw.githubusercontent.com/Phatdepzaicrystal/phatsadboizbuonba/refs/heads/main/Main/Verserhop.lua"))()
-setclipboard("https://discord.gg/hATuHQaQRb")
+setclipboard("https://zalo.me/g/kmhete440")
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer("SetTeam", "Marines")
 game:GetService("ReplicatedStorage"):WaitForChild("__ServerBrowser"):InvokeServer("getjob")
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClientAnalyticsEvent"):FireServer({["Platform"] = "Mobile"})
