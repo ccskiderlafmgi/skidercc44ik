@@ -1,4 +1,4 @@
---loadstring(game:HttpGet("https://raw.githubusercontent.com/Phatdepzaicrystal/phatsadboizbuonba/refs/heads/main/Main/Verserhop.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ccditmethkskider/ducsharelinkhub/refs/heads/main/vv"))()
 setclipboard("https://zalo.me/g/kmhete440")
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer("SetTeam", "Marines")
 game:GetService("ReplicatedStorage"):WaitForChild("__ServerBrowser"):InvokeServer("getjob")
@@ -649,7 +649,7 @@ spawn(
                             else
                                 loadstring(
                                     game:HttpGet(
-                                        "https://raw.githubusercontent.com/obfalchx/Api/refs/heads/main/Dough.txt"
+                                        "https://raw.githubusercontent.com/shinichi-dz/shinhop/refs/heads/main/dough%20king.luau.txt"
                                     )
                                 )()
                             end
